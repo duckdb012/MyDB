@@ -1,0 +1,23 @@
+Package: MyDB
+Title: High-Performance Out-of-Core Data Analysis for R
+Version: 0.1.0
+Authors@R: 
+    person("Antony", "Ngige", , "antony@example.com", role = c("aut", "cre"))
+Description: Implements an Object-Relational Mapping (ORM) system connecting R to DuckDB. 
+    Allows for vector, matrix, and dataframe operations on data larger than RAM 
+    using "Lazy Evaluation" and SQL translation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    DBI,
+    duckdb,
+    R6,
+    jsonlite,
+    methods,
+    stats,
+    utils,
+    tools
+URL: https://github.com/tonnyngich/MyDB
+BugReports: https://github.com/tonnyngich/MyDB/issues
